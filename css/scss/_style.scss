@@ -1,0 +1,69 @@
+@import "./varible";
+
+@import "./mixin";
+
+/*********************************************************************
+************************* Style Global Rouls *************************
+*********************************************************************/
+
+/********************** Start Style header ***********************/
+
+header {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 40%;
+        background-color: $main-color;
+    }
+
+    .navbar {
+        background-color: transparent !important;
+
+        .navbar-brand {
+            width: auto;
+            height: 80px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .navbar-brand {
+                height: 60px;
+            }
+        }
+
+        .navbar-toggler {
+            font-size: 24px;
+        }
+
+        .navbar-nav {
+    
+            .nav-link {
+                color: $secound-color;
+                font-weight: 500;
+                font-size: 14px;
+                transition: $main-transition;
+                text-transform: capitalize;
+    
+                &.active, &:hover {
+                    color: $main-color
+                }
+            }
+    
+            button {
+                @include main-button($secound-color);
+            }
+        }
+
+    }
+}
+
+/*********************** End Style header ************************/

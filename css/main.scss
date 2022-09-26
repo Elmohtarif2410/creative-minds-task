@@ -1,35 +1,9 @@
-/*********************************************************************
-************************* Style Global Rouls *************************
-*********************************************************************/
+// import varible
+@import "./scss/varible";
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box
-}
+// import global rowls
+@import "./scss/global-rowls";
 
-html {
-    scroll-behavior: smooth
-}
+// import style 
+@import "./scss/style"
 
-body {
-    font-family: 'Tajawal', sans-serif, Arial, Helvetica;
-}
-
-button {
-    background: none;
-    border: none;
-}
-
-button:focus {
-    outline: none
-}
-
-ul {
-    list-style: none
-}
-
-a {
-    text-decoration: none;
-    color: inherit
-}
