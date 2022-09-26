@@ -34,3 +34,36 @@ a {
     text-decoration: none;
     color: inherit
 }
+
+/*********************************************************************
+************************ Style Global component **********************
+*********************************************************************/
+
+.main-section-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: $heaging-color;
+    width: fit-content;
+    margin: 0 auto 32px;
+    text-transform: capitalize;
+}
+
+.secound-section-heading {
+
+    h3 {
+        font-size: 48px;
+        font-weight: bold;
+        color: $heaging-color;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 500;
+        color: $heaging-color;
+        max-width: 400px;
+        margin: 0;
+    }
+}
+
+
