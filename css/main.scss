@@ -1,0 +1,35 @@
+/*********************************************************************
+************************* Style Global Rouls *************************
+*********************************************************************/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: 'Tajawal', sans-serif, Arial, Helvetica;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button:focus {
+    outline: none
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
