@@ -359,6 +359,9 @@ header .landding .scroll-bottom {
 
 /*********************** End Style portfolio ************************/
 /********************** Start Style testimonial **********************/
+.testimonials {
+  padding-bottom: 71px;
+}
 .testimonials .testimonial-box {
   background-color: #E6EBF2;
   padding: 32px 64px;
@@ -459,4 +462,30 @@ header .landding .scroll-bottom {
   background-color: #49C2D3;
 }
 
-/*********************** End Style testimonial ***********************//*# sourceMappingURL=main.css.map */
+/*********************** End Style testimonial ***********************/
+/********************** Start Style conmpany ***********************/
+.conmpany {
+  background-color: #1A3251;
+  padding-top: 71px;
+  padding-bottom: 71px;
+}
+.conmpany article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.conmpany article span {
+  display: block;
+  color: #49C2D3;
+  font-size: 48px;
+  font-weight: bold;
+}
+.conmpany article h3 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/*********************** End Style conmpany ************************//*# sourceMappingURL=main.css.map */
