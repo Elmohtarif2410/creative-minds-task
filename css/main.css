@@ -46,8 +46,9 @@ header::before {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: -1;
   height: 100%;
-  width: 40%;
+  width: 35%;
   background-color: #49C2D3;
 }
 header .navbar {
@@ -85,6 +86,51 @@ header .navbar .navbar-nav button {
   padding: 5px 20px;
   border-radius: 100px;
   font-size: 14px;
+}
+header .landding {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  min-height: 500px;
+}
+@media (max-width: 767px) {
+  header .landding {
+    grid-template-columns: 100%;
+  }
+}
+header .landding .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .landding .content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #303233;
+  margin-bottom: 50px;
+}
+header .landding .content button {
+  align-self: flex-start;
+  background-color: #49C2D3;
+  font-weight: 500;
+  color: white;
+  padding: 8px 35px;
+  border-radius: 7px;
+}
+header .landding .image {
+  margin: 0;
+  overflow-y: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+header .landding .image img {
+  height: 90%;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  header .landding .image {
+    display: none;
+  }
 }
 
 /*********************** End Style header ************************//*# sourceMappingURL=main.css.map */
