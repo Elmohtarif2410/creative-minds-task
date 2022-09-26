@@ -249,3 +249,97 @@ header {
 }
 
 /********************* End Style Clients ************************/
+
+/********************** Start Style portfolio ***********************/
+
+.portfolio {
+
+    .container > p {
+        font-weight: 500;
+        color: $text-color;
+        text-align: center;
+        max-width: 550px;
+        margin: auto;
+    }
+
+    ul.categories {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin: 32px 0;
+
+        @media (max-width: 575px) {
+            gap: 12px
+        }
+
+        li {
+            text-transform: capitalize;
+            color: $heaging-color;
+            cursor: pointer;
+            transition: $main-transition;
+            font-weight: 500;
+
+            &.active,
+            &:hover {
+                color: $main-color
+            }
+        }
+    }
+
+    .prodacts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        .prodact {
+            position: relative;
+            cursor: pointer;
+            overflow: hidden;
+            width: calc((100% - 60px) / 3);
+
+            @media (max-width: 991px) {
+                width: calc((100% - 30px) / 2);
+            }
+
+            @media (max-width: 575px) {
+                width: 100%;
+            }
+    
+            h3 {
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: $white-color;
+                text-transform: capitalize;
+                font-size: 32px;
+                font-weight: bold;
+                width: 100%;
+                text-align: center;
+            }
+    
+            img {
+                width: 100%;
+                overflow: hidden;
+                transition: $main-transition;
+            }
+
+            &:hover img {
+                transform: scale(1.2) rotate(6deg);
+            }
+        }
+    }
+
+    a.discover {
+        display: block;
+        color: #EA2F4A;
+        border: 1px solid;
+        text-transform: capitalize;
+        width: fit-content;
+        margin: 30px auto;
+        padding: 6px 25px;
+        border-radius: 4px;
+    }
+}
+
+/*********************** End Style portfolio ************************/

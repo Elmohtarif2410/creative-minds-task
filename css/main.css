@@ -271,4 +271,89 @@ header .landding .scroll-bottom {
   }
 }
 
-/********************* End Style Clients ************************//*# sourceMappingURL=main.css.map */
+/********************* End Style Clients ************************/
+/********************** Start Style portfolio ***********************/
+.portfolio .container > p {
+  font-weight: 500;
+  color: #999999;
+  text-align: center;
+  max-width: 550px;
+  margin: auto;
+}
+.portfolio ul.categories {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 32px 0;
+}
+@media (max-width: 575px) {
+  .portfolio ul.categories {
+    gap: 12px;
+  }
+}
+.portfolio ul.categories li {
+  text-transform: capitalize;
+  color: #303233;
+  cursor: pointer;
+  transition: 0.4s;
+  font-weight: 500;
+}
+.portfolio ul.categories li.active, .portfolio ul.categories li:hover {
+  color: #49C2D3;
+}
+.portfolio .prodacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.portfolio .prodacts .prodact {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  width: calc((100% - 60px) / 3);
+}
+@media (max-width: 991px) {
+  .portfolio .prodacts .prodact {
+    width: calc((100% - 30px) / 2);
+  }
+}
+@media (max-width: 575px) {
+  .portfolio .prodacts .prodact {
+    width: 100%;
+  }
+}
+.portfolio .prodacts .prodact h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 32px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+.portfolio .prodacts .prodact img {
+  width: 100%;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.portfolio .prodacts .prodact:hover img {
+  transform: scale(1.2) rotate(6deg);
+}
+.portfolio a.discover {
+  display: block;
+  color: #EA2F4A;
+  border: 1px solid;
+  text-transform: capitalize;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 30px auto;
+  padding: 6px 25px;
+  border-radius: 4px;
+}
+
+/*********************** End Style portfolio ************************//*# sourceMappingURL=main.css.map */
