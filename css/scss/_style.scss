@@ -485,3 +485,44 @@ header {
 }
 
 /*********************** End Style conmpany ************************/
+
+/********************** Start Style benefits ***********************/
+
+.benefits {
+    padding-top: $main-padding;
+    padding-bottom: $main-padding;
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+
+        article {
+            width: calc((100% - 90px) / 4);
+            text-align: center;
+    
+            @media (max-width: 991px) {
+                width: calc((100% - 60px) / 3);
+            }
+    
+            @media (max-width: 767px) {
+                width: calc((100% - 30px) / 2);
+            }
+    
+            @media (max-width: 575px) {
+                width: 100%;
+            }
+
+            h3 {
+                text-transform: capitalize;
+                font-size: 32px;
+                font-weight: bold;
+                color: $heaging-color;
+                margin-top: 16px
+            }
+        }
+    }
+}
+
+/*********************** End Style benefits ************************/
