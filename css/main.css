@@ -62,6 +62,10 @@ a {
   margin: 0;
 }
 
+body {
+  height: 5000px;
+}
+
 /*********************************************************************
 ************************* Style Global Rouls *************************
 *********************************************************************/
@@ -167,10 +171,6 @@ header .landding .scroll-bottom {
   transform: translateX(-50%);
 }
 
-body {
-  height: 5000px;
-}
-
 /*********************** End Style header ************************/
 /********************** Start Style servicies ********************/
 .services {
@@ -235,4 +235,40 @@ body {
   transform: translate(5px, 12.5%);
 }
 
-/*********************** End Style servicies ********************//*# sourceMappingURL=main.css.map */
+/*********************** End Style servicies ********************/
+/******************** Start Style Clients ***********************/
+.clients {
+  padding-top: 71px;
+  padding-bottom: 71px;
+}
+.clients .container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  justify-content: center;
+}
+.clients .container figure {
+  width: 20%;
+}
+@media (max-width: 1200px) {
+  .clients .container figure {
+    width: 25%;
+  }
+}
+@media (max-width: 991px) {
+  .clients .container figure {
+    width: 33.333%;
+  }
+}
+@media (max-width: 767px) {
+  .clients .container figure {
+    width: 50%;
+  }
+}
+@media (max-width: 575px) {
+  .clients .container figure {
+    width: 100%;
+  }
+}
+
+/********************* End Style Clients ************************//*# sourceMappingURL=main.css.map */
