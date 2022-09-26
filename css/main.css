@@ -46,6 +46,7 @@ a {
   width: fit-content;
   margin: 0 auto 32px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .secound-section-heading h3 {
@@ -63,7 +64,7 @@ a {
 }
 
 body {
-  height: 5000px;
+  height: 10000px;
 }
 
 /*********************************************************************
@@ -356,4 +357,106 @@ header .landding .scroll-bottom {
   border-radius: 4px;
 }
 
-/*********************** End Style portfolio ************************//*# sourceMappingURL=main.css.map */
+/*********************** End Style portfolio ************************/
+/********************** Start Style testimonial **********************/
+.testimonials .testimonial-box {
+  background-color: #E6EBF2;
+  padding: 32px 64px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+@media (max-width: 991px) {
+  .testimonials .testimonial-box {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .testimonials .testimonial-box {
+    padding: 16px;
+  }
+}
+.testimonials .testimonial-box .image {
+  margin: 0;
+}
+.testimonials .testimonial-box .image img {
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 991px) {
+  .testimonials .testimonial-box .image img {
+    border-radius: 50%;
+  }
+}
+.testimonials .testimonial-box .content {
+  display: flex;
+  gap: 32px;
+}
+@media (max-width: 767px) {
+  .testimonials .testimonial-box .content {
+    gap: 0;
+  }
+}
+.testimonials .testimonial-box .content::before {
+  content: url(../../images/testimonial-qutation-top.svg);
+}
+@media (max-width: 767px) {
+  .testimonials .testimonial-box .content::before {
+    transform: scale(0.4) translateY(-100%);
+    align-self: flex-start;
+  }
+}
+.testimonials .testimonial-box .content::after {
+  content: url(../../images/testimonial-qutation-bottom.svg);
+  align-self: flex-end;
+  transform: translateY(-100%);
+}
+@media (max-width: 767px) {
+  .testimonials .testimonial-box .content::after {
+    transform: translateY(-100%) scale(0.4);
+  }
+}
+.testimonials .testimonial-box .content blockquote {
+  color: #303233;
+  font-weight: 500;
+}
+.testimonials .testimonial-box .content h3 {
+  text-transform: capitalize;
+  color: #49C2D3;
+  font-weight: 500;
+  font-size: 20px;
+}
+.testimonials .testimonial-box .content p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #999999;
+  text-transform: capitalize;
+}
+.testimonials .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+.testimonials .pagination ul.bults {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 6px;
+}
+.testimonials .pagination ul.bults li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #E6EBF2;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.testimonials .pagination ul.bults li:hover, .testimonials .pagination ul.bults li.active {
+  background-color: #49C2D3;
+}
+
+/*********************** End Style testimonial ***********************//*# sourceMappingURL=main.css.map */

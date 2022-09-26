@@ -3,7 +3,7 @@
 @import "./mixin";
 
 body {
-    height: 5000px;
+    height: 10000px;
 }
 
 
@@ -343,3 +343,113 @@ header {
 }
 
 /*********************** End Style portfolio ************************/
+
+/********************** Start Style testimonial **********************/
+
+.testimonials {
+    .testimonial-box {
+        background-color: #E6EBF2;
+        padding: 32px 64px;
+        display: flex;
+        align-items: center;
+        gap: 64px;
+
+        @media (max-width: 991px) {
+            flex-direction: column;
+            gap: 32px
+        }
+
+        @media (max-width: 767px) {
+            padding: 16px;
+        }
+
+        .image {
+            margin: 0;
+
+            img {
+                width: 150px;
+                object-fit: cover;
+                @media (max-width: 991px) {
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .content {
+            display: flex;
+            gap: 32px;
+
+            @media (max-width: 767px) {
+                gap: 0;
+            }
+
+            &::before {
+                content: url(../../images/testimonial-qutation-top.svg);
+                @media (max-width: 767px) {
+                    transform: scale(.4) translateY(-100%);
+                    align-self: flex-start;
+                }
+            }
+
+            &::after {
+                content: url(../../images/testimonial-qutation-bottom.svg);
+                align-self: flex-end;
+                transform: translateY(-100%);
+                @media (max-width: 767px) {
+                    transform: translateY(-100%) scale(.4);
+                }
+            }
+
+            blockquote {
+                color: $heaging-color;
+                font-weight: 500;
+            }
+
+            h3 {
+                text-transform: capitalize;
+                color: $main-color;
+                font-weight: 500;
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 500;
+                color: $text-color;
+                text-transform: capitalize;
+            }
+        }
+
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin-top: 32px;
+
+        ul.bults {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 6px;
+
+            li {
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background-color: #E6EBF2;
+                cursor: pointer;
+                transition: $main-transition;
+
+                &:hover,
+                &.active {
+                    background-color: $main-color
+                }
+            }
+        }
+    }
+}
+
+/*********************** End Style testimonial ***********************/

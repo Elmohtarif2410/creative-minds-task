@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <g id="smartphone_2_" data-name="smartphone (2)" transform="translate(-0.35 -4.684)">
+    <circle id="Ellipse_143" data-name="Ellipse 143" cx="29" cy="29" r="29" transform="translate(0.35 4.684)" fill="#e6ebf2"/>
+    <g id="Group_36065" data-name="Group 36065" transform="translate(15.83 9.399)">
+      <path id="Union_27" data-name="Union 27" d="M7.554,47.816H3.42A3.421,3.421,0,0,1,0,44.395V3.421A3.421,3.421,0,0,1,3.42,0H22.864a3.424,3.424,0,0,1,3.421,3.421V44.395a3.425,3.425,0,0,1-3.421,3.421Z" fill="#49c2d3"/>
+      <path id="Union_29" data-name="Union 29" d="M4.848,24.224H1.439A1.44,1.44,0,0,1,0,22.784V0H22.322V22.784a1.44,1.44,0,0,1-1.439,1.44Z" transform="translate(1.981 21.61)" fill="#eef6ff"/>
+      <path id="Path_34927" data-name="Path 34927" d="M134.089,235.234a2.257,2.257,0,1,1-2.257-2.257A2.257,2.257,0,0,1,134.089,235.234Zm0,0" transform="translate(-124.277 -206.751)" fill="#1a3251"/>
+      <path id="Path_34928" data-name="Path 34928" d="M134.089,309.589a2.257,2.257,0,1,1-2.257-2.257A2.257,2.257,0,0,1,134.089,309.589Zm0,0" transform="translate(-124.277 -272.737)" fill="#1a3251"/>
+      <path id="Path_34929" data-name="Path 34929" d="M131.576,233.113a2.257,2.257,0,1,0,2.123,3.508A2.259,2.259,0,0,1,131.576,233.113Zm0,0" transform="translate(-124.276 -206.872)" fill="#1a3251"/>
+      <path id="Path_34930" data-name="Path 34930" d="M131.576,307.469a2.257,2.257,0,1,0,2.123,3.508A2.259,2.259,0,0,1,131.576,307.469Zm0,0" transform="translate(-124.276 -272.858)" fill="#1a3251"/>
+      <g id="Group_36063" data-name="Group 36063" transform="translate(12.73 25.856)">
+        <path id="Path_34931" data-name="Path 34931" d="M199.646,231.384h-3.2a.844.844,0,1,1,0-1.689h3.2a.844.844,0,0,1,0,1.689Zm0,0" transform="translate(-195.597 -229.695)" fill="#49c2d3"/>
+        <path id="Path_34932" data-name="Path 34932" d="M202.851,263.056h-6.409a.844.844,0,1,1,0-1.688h6.409a.844.844,0,1,1,0,1.688Zm0,0" transform="translate(-195.597 -257.802)" fill="#49c2d3"/>
+        <path id="Path_34933" data-name="Path 34933" d="M199.646,305.735h-3.2a.844.844,0,1,1,0-1.688h3.2a.844.844,0,0,1,0,1.688Zm0,0" transform="translate(-195.597 -295.677)" fill="#49c2d3"/>
+        <path id="Path_34934" data-name="Path 34934" d="M202.851,337.407h-6.409a.844.844,0,1,1,0-1.688h6.409a.844.844,0,1,1,0,1.688Zm0,0" transform="translate(-195.597 -323.784)" fill="#49c2d3"/>
+      </g>
+      <path id="Union_28" data-name="Union 28" d="M4.861,19.854H0V1.44A1.441,1.441,0,0,1,1.442,0H4.33a.493.493,0,0,1,.494.493c0,.011,0,.022,0,.033s0,.008,0,.012,0,.016,0,.023,0,.008,0,.012l0,.024s0,0,0,.008a1.052,1.052,0,0,0,.031.172V.783a1.194,1.194,0,0,0,1.151.9h4.62v0h5.682A1.191,1.191,0,0,0,17.5.524c0-.01,0-.021,0-.03A.493.493,0,0,1,17.992,0h2.891a1.44,1.44,0,0,1,1.439,1.44V19.854Z" transform="translate(1.969 1.982)" fill="#ea2f4a"/>
+      <path id="Path_34938" data-name="Path 34938" d="M129.57,63.9h-3.893a.844.844,0,1,1,0-1.688h3.893a.844.844,0,1,1,0,1.688Zm0,0" transform="translate(-120.068 -55.205)" fill="#e6ebf2"/>
+    </g>
+  </g>
+</svg>

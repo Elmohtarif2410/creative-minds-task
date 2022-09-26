@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <g id="Group_35472" data-name="Group 35472" transform="translate(-233 -3559)">
+    <g id="Rectangle_18769" data-name="Rectangle 18769" transform="translate(233 3559)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="58" height="58" stroke="none"/>
+      <rect x="0.5" y="0.5" width="57" height="57" fill="none"/>
+    </g>
+    <g id="testimonials" transform="translate(233 3559)">
+      <g id="Group_36039" data-name="Group 36039" transform="translate(0 0)">
+        <g id="Group_36038" data-name="Group 36038">
+          <g id="Group_36037" data-name="Group 36037">
+            <g id="Group_36036" data-name="Group 36036">
+              <g id="Group_36035" data-name="Group 36035">
+                <g id="Group_36034" data-name="Group 36034">
+                  <ellipse id="Ellipse_136" data-name="Ellipse 136" cx="29" cy="29" rx="29" ry="29" fill="#e6ebf2"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Path_34879" data-name="Path 34879" d="M137.754,112.239a28.5,28.5,0,0,0-1.987-10.088l-9.1-8.167L90.212,107.022l10.6,11.093-3.469,3.445,3.895,5.16L92.119,128.4l11.3,12.1a26.96,26.96,0,0,0,5.462.6A28.87,28.87,0,0,0,137.754,112.239Z" transform="translate(-79.754 -83.12)" fill="#e6ebf2"/>
+      <g id="Group_36046" data-name="Group 36046" transform="translate(11.774 31.952)">
+        <g id="Group_36042" data-name="Group 36042" transform="translate(19.271)">
+          <g id="Group_36040" data-name="Group 36040" transform="translate(3.247)">
+            <circle id="Ellipse_137" data-name="Ellipse 137" cx="3.411" cy="3.411" r="3.411" fill="#ea2f4a"/>
+          </g>
+          <g id="Group_36041" data-name="Group 36041" transform="translate(0 7.778)">
+            <path id="Path_34880" data-name="Path 34880" d="M289.823,360.149a6.829,6.829,0,0,0-6.658,5.315h13.317A6.829,6.829,0,0,0,289.823,360.149Z" transform="translate(-283.165 -360.149)" fill="#ea2f4a"/>
+          </g>
+        </g>
+        <g id="Group_36045" data-name="Group 36045">
+          <g id="Group_36043" data-name="Group 36043" transform="translate(3.247)">
+            <circle id="Ellipse_138" data-name="Ellipse 138" cx="3.411" cy="3.411" r="3.411" fill="#ea2f4a"/>
+          </g>
+          <g id="Group_36044" data-name="Group 36044" transform="translate(0 7.778)">
+            <path id="Path_34881" data-name="Path 34881" d="M113.987,360.149a6.829,6.829,0,0,0-6.658,5.315h13.317A6.829,6.829,0,0,0,113.987,360.149Z" transform="translate(-107.329 -360.149)" fill="#ea2f4a"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_36051" data-name="Group 36051" transform="translate(19.078 30.341)">
+        <path id="Union_24" data-name="Union 24" d="M4.613,9.226A4.613,4.613,0,1,1,9.225,4.619,4.609,4.609,0,0,1,4.613,9.226Z" transform="translate(4.392)" fill="#49c2d3"/>
+        <path id="Union_23" data-name="Union 23" d="M9.008,7.19H0a9.234,9.234,0,0,1,18.01,0Z" transform="translate(0 10.519)" fill="#49c2d3"/>
+      </g>
+      <path id="Union_25" data-name="Union 25" d="M27.811,18.413l0,0-2.742-5.276H21.027L18.176,18.3l-2.639-5.164H11.285L8.539,18.417,5.8,13.141H0V0H36.559V13.141h-6l-2.742,5.276Z" transform="translate(9.892 10.101)" fill="#fff"/>
+      <path id="Union_26" data-name="Union 26" d="M4.939,8.019,1.885,9.671l.584-3.5L0,3.7l3.414-.509L4.939,0,6.469,3.188l3.41.509L7.408,6.172l.586,3.5Z" transform="translate(23.145 11.655)" fill="#49c2d3"/>
+      <g id="Group_36058" data-name="Group 36058" transform="translate(11.512 11.656)">
+        <g id="Group_36056" data-name="Group 36056" transform="translate(23.231)">
+          <path id="Path_34889" data-name="Path 34889" d="M321.856,108.281l1.526,3.183,3.413.51-2.469,2.478.583,3.5-3.052-1.652-3.052,1.652.583-3.5-2.47-2.478,3.413-.51Z" transform="translate(-316.917 -108.281)" fill="#49c2d3"/>
+        </g>
+        <g id="Group_36057" data-name="Group 36057">
+          <path id="Path_34890" data-name="Path 34890" d="M109.893,108.281l1.526,3.183,3.413.51-2.47,2.478.583,3.5-3.053-1.652-3.052,1.652.583-3.5-2.469-2.478,3.413-.51Z" transform="translate(-104.954 -108.281)" fill="#49c2d3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
