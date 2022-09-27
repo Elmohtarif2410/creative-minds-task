@@ -526,3 +526,36 @@ header {
 }
 
 /*********************** End Style benefits ************************/
+
+/********************** Start Style reserve meeting  ***********************/
+
+.reserve-meeting {
+    padding-top: $main-padding;
+    padding-bottom: $main-padding;
+    background-image: url(../../images/reserve-meeting-background.svg);
+    text-align: center;
+
+    p {
+        font-size: 32px;
+        font-weight: bold;
+        max-width: 750px;
+        margin: auto;
+        text-transform: capitalize
+    }
+
+    a {
+        @include main-button($main-color);
+        display: block;
+        width: fit-content;
+        margin: auto;
+        margin-top: 32px;
+        padding: 18px 84px;
+        font-size: 18px;
+
+        @media (max-width: 575px) {
+            padding: 9px 42px;
+        }
+    }
+}
+
+/*********************** End Style reserve meeting  ************************/
