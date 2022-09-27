@@ -63,10 +63,6 @@ a {
   margin: 0;
 }
 
-body {
-  height: 10000px;
-}
-
 /*********************************************************************
 ************************* Style Global Rouls *************************
 *********************************************************************/
@@ -673,5 +669,87 @@ header .landding .scroll-bottom {
 }
 
 /*********************** End Style contact ************************/
-/********************** Start Style # ***********************/
-/*********************** End Style # ************************//*# sourceMappingURL=main.css.map */
+/********************** Start Style footer ***********************/
+.footer {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #1A3251;
+  color: #ffffff;
+}
+.footer .container {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 70px;
+}
+@media (max-width: 767px) {
+  .footer .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "column column";
+  }
+}
+@media (max-width: 575px) {
+  .footer .container {
+    grid-template-areas: none;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+.footer .container h3 {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+@media (max-width: 767px) {
+  .footer .container .logo {
+    text-align: center;
+    grid-area: column;
+  }
+}
+@media (max-width: 575px) {
+  .footer .container .logo {
+    grid-area: auto;
+  }
+}
+.footer .container .links ul {
+  padding: 0;
+  margin: 0;
+  -moz-column-count: 2;
+       column-count: 2;
+}
+.footer .container .links ul li {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.footer .container .links ul li:not(:first-of-type) {
+  margin-top: 16px;
+}
+.footer .container .links ul li a {
+  transition: 0.4s;
+}
+.footer .container .links ul li a:hover {
+  color: #49C2D3;
+}
+.footer .container .contact-footer .information-company {
+  margin-bottom: 16px;
+}
+.footer .container .contact-footer .information-company img {
+  width: 24px;
+  height: 24px;
+}
+.footer .container .contact-footer .information-company span {
+  font-weight: 500;
+  margin-left: 8px;
+}
+.footer .container .social {
+  padding: 0;
+  display: flex;
+  gap: 32px;
+}
+@media (max-width: 575px) {
+  .footer .container .social {
+    justify-content: center;
+  }
+}
+
+/*********************** End Style footer ************************//*# sourceMappingURL=main.css.map */
