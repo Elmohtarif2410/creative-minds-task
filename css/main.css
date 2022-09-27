@@ -83,6 +83,15 @@ header::before {
 header .navbar {
   background-color: transparent !important;
 }
+header .navbar.scrolling-nav {
+  background-color: white !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  border-bottom: 1px solid #E6EBF2;
+}
 header .navbar .navbar-brand {
   width: auto;
   height: 80px;
@@ -457,6 +466,9 @@ header .landding .scroll-bottom {
 .testimonials .pagination ul.bults li:hover, .testimonials .pagination ul.bults li.active {
   background-color: #49C2D3;
 }
+.testimonials .pagination .prev {
+  transform: rotate(180deg);
+}
 
 /*********************** End Style testimonial ***********************/
 /********************** Start Style conmpany ***********************/
@@ -752,4 +764,21 @@ header .landding .scroll-bottom {
   }
 }
 
-/*********************** End Style footer ************************//*# sourceMappingURL=main.css.map */
+/*********************** End Style footer ************************/
+/********************** Start Style fetuer ***********************/
+.chat-box {
+  position: fixed;
+  z-index: 5;
+  bottom: 24px;
+  right: 140px;
+}
+@media (max-width: 767px) {
+  .chat-box {
+    right: 32px;
+  }
+}
+.chat-box .icon {
+  transform: translate(15%, -50%);
+}
+
+/*********************** End Style fetuer ************************//*# sourceMappingURL=main.css.map */

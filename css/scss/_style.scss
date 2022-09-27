@@ -1,7 +1,6 @@
+// import
 @import "./varible";
-
 @import "./mixin";
-
 
 /*********************************************************************
 ************************* Style Global Rouls *************************
@@ -25,6 +24,16 @@ header {
 
     .navbar {
         background-color: transparent !important;
+
+        &.scrolling-nav {
+            background-color: white !important;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 10;
+            border-bottom: 1px solid #E6EBF2;
+        }
 
         .navbar-brand {
             width: auto;
@@ -446,6 +455,10 @@ header {
                 }
             }
         }
+
+        .prev {
+            transform: rotate(180deg);
+        }
     }
 }
 
@@ -771,3 +784,22 @@ header {
 }
 
 /*********************** End Style footer ************************/
+
+/********************** Start Style fetuer ***********************/
+
+.chat-box {
+    position: fixed;
+    z-index: 5;
+    bottom: 24px;
+    right: 140px;
+
+    @media (max-width: 767px) {
+        right: 32px;
+    }
+
+    .icon {
+        transform: translate(15%,-50%);
+    }
+}
+
+/*********************** End Style fetuer ************************/
