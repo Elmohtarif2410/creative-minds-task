@@ -527,12 +527,14 @@ header {
 
 /*********************** End Style benefits ************************/
 
-/********************** Start Style reserve meeting  ***********************/
+/****************** Start Style reserve meeting  ******************/
 
 .reserve-meeting {
     padding-top: $main-padding;
     padding-bottom: $main-padding;
     background-image: url(../../images/reserve-meeting-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
 
     p {
@@ -558,4 +560,123 @@ header {
     }
 }
 
-/*********************** End Style reserve meeting  ************************/
+/******************* End Style reserve meeting  *******************/
+
+/********************** Start Style contact ***********************/
+
+.contact {
+    padding-top: $main-padding;
+    padding-bottom: $main-padding;
+
+    .contact-box {
+        max-width: 900px;
+        margin: auto;
+        padding: 48px 64px;
+        background-image: url(../../images/contact-background.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 32px;
+        color: $white-color;
+        display: grid;
+        grid-template-columns: 1fr 46%;
+        gap: 120px;
+
+        @media (max-width: 991px) {
+            grid-template-columns: auto;
+            gap: 32px;
+        }
+
+        .content {
+            
+            @media (max-width: 991px) {
+                text-align: center;
+            }
+
+            .secound-section-heading {
+                h3 {
+                    color: $white-color;
+                    text-transform: lowercase;
+
+                    &::first-letter {
+                        text-transform: uppercase;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: normal;
+                    color: $text-color;
+
+                    @media (max-width: 991px) {
+                        margin: auto;
+                    }
+                }
+            }
+             
+            .information-company {
+                margin-top: 24px;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                span {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-left: 12px;
+                }
+            }
+        }
+
+        form {
+            .input {
+                margin-bottom: 12px;
+
+                label {
+                    display: block;
+                    font-weight: bold;
+                    margin-bottom: 8px;
+                    text-transform: capitalize;
+                }
+
+                input, textarea {
+                    display: block;
+                    width: 100%;
+                    padding: 14px 12px;
+                    border-radius: 5px;
+                    border: none;
+                    outline: none;
+
+                    &::placeholder {
+                        text-transform: capitalize;
+                        color: $text-color;
+                    }
+                }
+
+                textarea {
+                    height: 96px;
+                }
+            }
+
+            button {
+                @include main-button($main-color);
+                display: block;
+                width: fit-content;
+                margin-left: auto;
+                font-size: 14px;
+                text-transform: capitalize;
+                padding: 15px 50px
+            }
+        }
+
+    }
+}
+
+/*********************** End Style contact ************************/
+
+
+
+
+/********************** Start Style # ***********************/
+/*********************** End Style # ************************/
